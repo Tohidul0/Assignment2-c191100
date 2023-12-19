@@ -1,5 +1,6 @@
 import Header from "./Component/Header"
 import Inputfield from "./Component/Inputfield"
+import Mainlist from "./Component/List/Mainlist"
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header></Header>
       <Inputfield></Inputfield>
+      <Mainlist></Mainlist>
     </>
   )
 }
